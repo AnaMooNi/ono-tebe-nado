@@ -10,7 +10,7 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="header content-section">
+    <header class="header ">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__link_active header__links-list-item_no-bullit">
@@ -40,18 +40,73 @@
       </address>
     </header>
     <main>
-      <cover class="cover">
+      <section class="cover">
+        <div class="overlay"></div>
         <h1 class="cover__title">
-          <samp class="accent-span">ОН О</samp>
-          <samp class="accent-span text-center">ТЕБ Е</samp>
-          <samp class="accent-span text-right">Н АДО</samp>
+          <span class="accent-span">о<span class="letter__spacing__span">но</span></span>
+          <span class="accent-span text-center">те<span class="letter__spacing__span">бе</span></span>
+          <span class="accent-span text-right"><span class="letter__spacing__span">н</span>ад<span class="remove__spacing">o</span></span></span>
         </h1>
-        <div>
-          <h2>Аукцион вещей, вкоторые никто не верил</h2>
-          <button>Сделать ставку</button>
+        <div class="cover__subtitle">
+          <h2 class="cover__subtitle__text">Аукцион вещей, в которые никто не верил</h2>
+          <button class="cover__button">Сделать ставку</button>
         </div>
-      </cover>
-      <lots></lots>
+      </section>
+      <section class="lots">
+        <h2 class="lots__title">лоты</h2>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#0">
+              <article class="card card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#0">
+              <article class="card card_type_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#0">
+              <article class="card card_type_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков… Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
+      </section>
       <about></about>
     </main>
     <footer></footer>
