@@ -60,7 +60,7 @@ body {
     position: relative;
     z-index: 1;
     padding: 165px 50px 51px 50px;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
