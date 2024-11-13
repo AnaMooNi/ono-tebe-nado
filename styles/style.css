@@ -97,7 +97,6 @@ body {
   }
 
   .text-center {
-    letter-spacing: 1;
     text-align: center;
   }
 
@@ -270,7 +269,6 @@ body {
 .about__text {
   font-size: 20px;
   font-weight: normal;
-  letter-spacing: 1;
 }
 
 .about__text_indent {
